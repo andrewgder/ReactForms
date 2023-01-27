@@ -9,6 +9,7 @@ const Form = () => {
     console.log(username);
     console.log(password);
     setUsername(" ");
+    setPassword("");
   };
   const handleChange = (event) => {
     setUsername(event.target.value);
